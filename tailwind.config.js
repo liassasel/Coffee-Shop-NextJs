@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['sans-serif']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -15,6 +18,7 @@ module.exports = {
         titlecolor: "#FEF7EE",
         descriptioncolor: "#6F757C",
         buttoncolor: "#6e757d",
+        soldout:  "#ed735d",
 
       },
     },
